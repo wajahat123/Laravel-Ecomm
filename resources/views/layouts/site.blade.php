@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Ecommerce Shop</title>
+    <title>Ecommerce Store</title>
 
     <link rel="stylesheet" type="text/css" href="{{asset('assets/site/css/fonts.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/site/css/crumina-fonts.css')}}">
