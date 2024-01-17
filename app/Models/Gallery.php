@@ -18,11 +18,11 @@ class Gallery extends Model
 
 
     public function image(): Attribute
-    
-    {
-        
 
-        //image = field in Gallery Model 
+    {
+
+
+        //image = field in Gallery Model
         return Attribute::make(
 
             get: fn($xyz) => $this->publicDir . $xyz

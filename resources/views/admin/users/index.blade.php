@@ -1,4 +1,4 @@
-{{-- 
+{{--
 
 
 // @foreach ($users as $user) {
@@ -13,7 +13,7 @@
 
 
 
-     
+
 // }
 
 //  --}}
@@ -111,8 +111,8 @@
                               @endfor
                           @endif --}}
 
-                          <td> 
-                            
+                          <td>
+
                             {{-- @foreach($user->image as $image)
                             <img src="assets/admin/userImages/{{ $image }}" class="rounded-circle" width="50px"
                             height="50px" />
@@ -120,7 +120,7 @@
 
                             <img src="/assets/admin/userImages/{{ $user->image}}" class="rounded-circle" width="50px"
                             height="50px" />
-                        
+
                         </td>
 
 
@@ -128,9 +128,9 @@
                             {{-- @dd($user) --}}
                             <td><a href="/admin/users/{{ $user->id }}/edit" class="btn btn-dark">Edit</a> </td>
                             <td> <a href="/user/{{ $user->id }}/delete" class="btn btn-danger">Delete</a></td>
-                            
 
-                            
+
+
                         </tr>
                     @endforeach
 
